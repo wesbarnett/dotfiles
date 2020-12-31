@@ -4,8 +4,8 @@
 
 # If not running interactively, don't do anything
 [[ $- != *i* ]] && return
-[[ $- = *i* ]] && source ~/liquidprompt/liquidprompt
 
+eval $(dircolors)
 alias ls='ls --color=auto'
 alias dotfiles="git --git-dir=$HOME/.dotfiles --work-tree=$HOME"
 alias etcfiles="git --git-dir=$HOME/.etcfiles --work-tree=/etc"
@@ -27,5 +27,5 @@ alias rsync="rsync -avz"
 PS1='[\u@\h \W]\$ '
 
 if [ $TILIX_ID ] || [ $VTE_VERSION ]; then
-        source /etc/profile.d/vte.sh
+  source /etc/profile.d/vte.sh
 fi
