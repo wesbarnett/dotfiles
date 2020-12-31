@@ -1,0 +1,9 @@
+[submodule ".vim/pack/default/start/gruvbox"]
+	path = .vim/pack/default/start/gruvbox
+	url = https://github.com/morhetz/gruvbox
+[submodule ".vim/pack/tpope/start/fugitive"]
+	path = .vim/pack/tpope/start/fugitive
+	url = https://github.com/tpope/vim-fugitive
+[submodule ".vim/pack/preservim/start/tagbar"]
+	path = .vim/pack/preservim/start/tagbar
+	url = https://github.com/preservim/tagbar
